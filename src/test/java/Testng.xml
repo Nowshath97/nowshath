@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="TestNG Session Automation suite">
+
+	<test name="TestNG Features">
+	
+	<classes>
+	<class name="testNG.TestNG1" />
+	<class name="testNG.TestNG2"/>
+	<class name="testNG.TestNG3"/>
+	<class name="testNG.TestNGFeatures"/>
+	
+	</classes>
+	
+	</test>
+	
+	</suite>

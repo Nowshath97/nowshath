@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNG Session Automation suite]">
+  <test name="TestNG Features(failed)">
+    <classes>
+      <class name="testNG.TestNGFeatures">
+        <methods>
+          <include name="infiniteloop"/>
+        </methods>
+      </class> <!-- testNG.TestNGFeatures -->
+      <class name="testNG.TestNG1">
+        <methods>
+          <include name="enterURL"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testNG.TestNG1 -->
+      <class name="testNG.TestNG2">
+        <methods>
+          <include name="setUP"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- testNG.TestNG2 -->
+      <class name="testNG.TestNG3">
+        <methods>
+          <include name="quit"/>
+          <include name="setup"/>
+          <include name="gmaillink"/>
+          <include name="googlesublink"/>
+        </methods>
+      </class> <!-- testNG.TestNG3 -->
+    </classes>
+  </test> <!-- TestNG Features(failed) -->
+</suite> <!-- Failed suite [TestNG Session Automation suite] -->
