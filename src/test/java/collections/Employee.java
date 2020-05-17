@@ -5,13 +5,13 @@ import org.apache.poi.hwpf.usermodel.DateAndTime;
 
 public class Employee  {
 	
-	int EmpId;
+	String EmpId;
 	String name;
 	String punchin;
 	String punchout;
 	
 	public Employee(){}
-	public Employee(int empid, String name, String punchin, String punchout){
+	public Employee(String empid, String name, String punchin, String punchout){
 		super();
 		this.EmpId = empid;
 		this.name = name;
@@ -19,12 +19,12 @@ public class Employee  {
 		this.punchout = punchout;
 	}
 	
-	public int getEmpId(){
+	public String getEmpId(){
 		return EmpId;
 	}
 
-	public void setEmpId(int empid){
-		this.EmpId=empid;
+	public void setEmpId(String string){
+		this.EmpId=string;
 	}
 	public String getName(){
 		return name;
