@@ -8,7 +8,7 @@ public class LambdaExpression {
 		 String str1 = "Nowshath";
 		String str2 = "Naushad";
 		int p=1;
-		(p) -> (System.out.println("Zero parameter lambda" +p));
+		//(p) -> (System.out.println("Zero parameter lambda" +p));
 		
 	}
 
